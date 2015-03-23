@@ -1,0 +1,50 @@
+Mysql相關函數 函數名稱 用途說明 
+mysql_affected_rows 得到 MySQL 最後操作影響的列數目。 
+mysql_change_user Change logged in user of the active connection  
+mysql_client_encoding Returns the name of the character set 
+mysql_close 關閉 MySQL 伺服器連線。 
+mysql_connect 開啟MySQL 伺服器連線。 
+mysql_create_db 建立一個 MySQL 新資料庫。 
+mysql_data_seek 移動內部傳回指標。 
+mysql_db_name 取得結果資料。 
+mysql_db_query 送查詢字串 (query) 到 MySQL 資料庫。 
+mysql_drop_db 移除資料庫。 
+mysql_errno 傳回錯誤訊息代碼。 
+mysql_error 傳回錯誤訊息。 
+mysql_escape_string Escapes a string for use in a mysql_query.  
+mysql_fetch_array 傳回陣列資料。 
+mysql_fetch_assoc Fetch a result row as an associative array  
+mysql_fetch_field 取得欄位資訊。 
+mysql_fetch_lengths 傳回單列各欄資料最大長度。 
+mysql_fetch_object 傳回物件資料。 
+mysql_fetch_row 傳回單列的各欄位。 
+mysql_field_flags 獲得目前欄位的旗標。 
+mysql_field_len 獲得目前欄位的長度。 
+mysql_field_name 傳回指定欄位的名稱。 
+mysql_field_seek 設定指標到傳回值的某欄位。 
+mysql_field_table 獲得目前欄位元的資料表 (table) 名稱。 
+mysql_field_type 獲得目前欄位的型態。 
+mysql_free_result 釋放傳回佔用記憶體。 
+mysql_get_client_info 取得 MySQL客戶端的資訊 
+mysql_get_host_info 取得 MySQL客戶端的主機名稱 
+mysql_get_proto_info 取得 MySQL客戶端Get MySQL protocol info 
+mysql_get_server_info Get MySQL server info 
+mysql_info Get information about the most recent query  
+mysql_insert_id 傳回最後一次使用 INSERT 指令的 ID。 
+mysql_list_dbs 列出 MySQL 伺服器可用的資料庫 (database)。 
+mysql_list_fields 列出指定資料表的欄位元 (field)。 
+mysql_list_processes List MySQL processes 
+mysql_list_tables List tables in a MySQL database 
+mysql_num_fields 取得傳回欄位元的數目。 
+mysql_num_rows 取得傳回列的數目。 
+mysql_pconnect 開啟MySQL 伺服器長期連線。 
+mysql_ping 如果沒有連線，則偵測伺服器的連線或重新連線。 
+mysql_query 送出一個 query 字串。 
+mysql_real_escape_string Escapes special characters in a string for use in a SQL statement, taking into account the current charset of the connection.  
+mysql_result 取得查詢 (query) 的結果。
+ 
+mysql_select_db 選擇一個資料庫。 
+mysql_stat 取得目前系統狀態。 
+mysql_tablename 取得資料表名稱。 
+mysql_thread_id Return the current thread ID 
+mysql_unbuffered_query Send an SQL query to MySQL, without fetching and buffering the result rows  

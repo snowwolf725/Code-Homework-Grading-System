@@ -1,0 +1,50 @@
+│  config.php		//Smarty 設定檔
+│  ReadMe.txt
+│
+├─Account_Mgr		//帳號管理相關的PHP檔
+├─cache		//Smarty 資料夾
+├─class		//Smarty 資料夾
+├─configs		//Smarty 資料夾
+├─Course_Mgr		//課程管理相關的PHP檔
+├─HW_Mgr		//作業管理相關的PHP檔
+├─includes		//放置自己寫的常用function
+├─images		//放置index使用到的圖檔
+├─modules		//放置共用的class
+├─Project_doc		//放置專案相關文件
+│  asgs.sql		//SQL
+├─Student		//學生相關的PHP檔
+├─templates		//放置樣板檔案(即PHP所對應的HTML檔案)
+│  │
+│  ├─Account_Mgr	//帳號管理相關的template檔
+│  ├─Course_Mgr	//課程管理相關的template檔
+│  ├─HW_Mgr		//作業管理相關的template檔
+│  ├─null		//預設的template檔案
+│  ├─images		//放置使用到的圖檔
+│  └─Student		//學生相關的template檔
+└─templates_c		//Smarty 資料夾
+
+
+專案檔案一率放在C:\AppServ\www\ASGS下
+
+假設想在HW_Mgr建立test.php則
+在/HW_Mgr建立test.php打入內容
+<?php
+    require "../config.php";					//設定檔在上面一層
+    $tpl->assign("title", "測試用的網頁標題");
+    $tpl->assign("content", "測試用的網頁內容");
+    // 上面兩行也可以用這行代替
+    // $tpl->assign(array("title" => "測試用的網頁標題", "content" => "測試用的網頁內容"));
+    $tpl->display('HW_Mgr/test.htm');			//注意是相對於/templates/的位置
+?>
+在/templates/HW_Mgr/test.htm內打入
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title><{$title}></title>
+</head> 
+<body>
+<{$content}>
+</body>
+</html>
+
+
