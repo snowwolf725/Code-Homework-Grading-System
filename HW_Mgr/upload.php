@@ -1,4 +1,4 @@
-<?
+﻿<?
  include "../config.php";
  include "../includes/power_chk.php";
  include "../includes/database.php";
@@ -11,7 +11,7 @@
 	     echo("請選擇檔案!");
 	 else
 	 {	
-		 $path = "C:/AppServ/www/asgs/upload/".$hw_id."/";
+		 $path = "upload/".$hw_id."/";
 		 if( file_exists( $path ) == 0)
 		 {
 		     mkdir( $path, 0700 );
