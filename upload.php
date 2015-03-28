@@ -27,7 +27,7 @@
 		 if( copy( $userfile, $path."/".$userfile_name ) ) 
 		 {
 			 shell_exec('java -jar GradingDamon.jar 01 01 123 ItemInfoTest &');
-			 $message = "檔案上傳成功!";          
+			 $message = "檔案上傳成功!";
 			 $sec = time();
 			 $id  = $_SESSION['account'];
 			 
@@ -66,7 +66,7 @@
  $tpl->assign( "up_teme", "0" );
  $tpl->assign( "course_name", "??" );
  $tpl->assign( "hw_id" , $hw_id );
- //$tpl->assign( "message" , $message );
+ $tpl->assign( "message" , $message );
  //$tpl->assign( "hw_doc" , $row1[hw_doc] );
  //$tpl->assign( "filename" , $userfile_name );
  //$tpl->assign( "filesize" , $userfile_size );
