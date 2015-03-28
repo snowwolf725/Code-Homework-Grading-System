@@ -1,7 +1,7 @@
 ﻿<?
- include "../config.php";
- include "../includes/power_chk.php";
- include "../includes/database.php";
+ include "config.php";
+ include "includes/power_chk.php";
+ include "includes/database.php";
  
  session_start();
  
