@@ -1,6 +1,9 @@
 <? session_start(); ?>
 <html>
-<head><title>ASGS</title></head>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>ASGS</title>
+</head>
 
 <body leftmargin="0" topmargin="0" alink="#ffffcc" bgcolor="#000000" link="#ffffcc" marginheight="0" marginwidth="0" text="#ffffff" vlink="#ffffcc">
 <table border="0" cellpadding="0" cellspacing="0" width="800">
