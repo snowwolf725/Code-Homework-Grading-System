@@ -12,7 +12,7 @@
 	$data = $db->Fetch_array($result);
 
 	if( $data['power'] == false ) {
-		header('Location:index.php?msg=帳號錯誤或密碼不正確...'."select * from account where `id`='".$id."' and `password`='".$pw."'");
+		header('Location:index.php?msg=帳號錯誤或密碼不正確...');
 		exit();
 	}
 
