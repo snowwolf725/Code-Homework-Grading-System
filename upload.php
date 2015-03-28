@@ -6,7 +6,7 @@
  session_start();
  
  $hw_id = 0001;
- $userfile_name = $_FILE["userfile"]["tmp_name"];
+ $userfile_name = $_FILES["userfile"]["tmp_name"];
  if(isset($_POST["submit"]))
  {  
 	 if( $userfile_name == "" )
