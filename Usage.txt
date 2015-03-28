@@ -23,7 +23,6 @@
 │  └─Student		//學生相關的template檔
 └─templates_c		//Smarty 資料夾
 
-
 專案檔案一率放在C:\AppServ\www\ASGS下
 
 假設想在HW_Mgr建立test.php則
