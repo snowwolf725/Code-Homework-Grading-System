@@ -5,6 +5,8 @@
  
  session_start();
  
+ $hw_id = 0001;
+ 
  if( $action == "upload" )
  {  
 	 if( $userfile == "" )
@@ -67,6 +69,6 @@
  //$tpl->assign( "hw_doc" , $row1[hw_doc] );
  //$tpl->assign( "filename" , $userfile_name );
  //$tpl->assign( "filesize" , $userfile_size );
- $tpl->display( "./HW_Mgr/upload.htm" ); 
+ $tpl->display( "upload.htm" ); 
 
 ?>
