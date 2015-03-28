@@ -6,10 +6,10 @@
  session_start();
  
  $hw_id = 0001;
- 
+ $userfile_name = $_POST["userfile"];
  if(isset($_POST["submit"]))
  {  
-	 if( $userfile == "" )
+	 if( $_POST["userfile"] == "" )
 	     echo("請選擇檔案!");
 	 else
 	 {	
