@@ -3,7 +3,7 @@
   {
       function defaultDBConnect() 
 	  {
-	      mysql_connect("localhost", "user", "12345678") or die ( "無法連結" );
+	      mysql_connect("localhost", "root", "1234qwer") or die ( "無法連結" );
           mysql_select_db("asgs") or die ( "無法傳真" );
       }
       
