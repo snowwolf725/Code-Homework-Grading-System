@@ -21,14 +21,18 @@
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
-			<link rel="stylesheet" type="text/css" href="css/uploadify.css">
 		</noscript>
-<style type="text/css">
-body {
-	font: 13px Arial, Helvetica, Sans-serif;
-}
-</style>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+        <script type="text/javascript">
+function performClick(elemId) {
+   var elem = document.getElementById(elemId);
+   if(elem && document.createEvent) {
+      var evt = document.createEvent("MouseEvents");
+      evt.initEvent("click", true, false);
+      elem.dispatchEvent(evt);
+   }
+}
+</script>
 	</head>
 	<body>
 
@@ -46,35 +50,11 @@ body {
 
 		<!-- Main -->
                 <h3>上傳檔案</h3>
-                <form>
-                <div id="queue"></div>
-                <input id="file_upload" name="file_upload" type="file" multiple="true">
-            </form>
-        
-            <script type="text/javascript">
-                <?php $timestamp = time();?>
-                $(function() {
-                    $('#file_upload').uploadify({
-                        'formData'     : {
-                            'timestamp' : '<?php echo $timestamp;?>',
-                            'token'     : "<?php echo md5('unique_salt' . $timestamp);?>"
-                        },
-                        'swf'      : 'uploadify.swf',
-                        'uploader' : 'uploadify.php'
-                    });
-                });
-            </script>
-                <ul class="actions">
-                    <div class="row uniform 50%">
-                        <div class="6u 12u$(xsmall)">
-                            <input type="file" name="theFile" id="theFile" value="" placeholder="File" />
-                        </div>
-                        <div class="6u 12u$(xsmall)">
-                            <li><a href="" class="button alt fileinput-exists">選擇檔案</a></li>
-                            <li><a href="#" class="button">上傳檔案</a></li>
-                        </div>
-                    </div>
-                </ul>
+                <form action="HW_Mgr/upload.php" method="post" enctype="multipart/form-data">
+                    選擇上傳檔案:
+                    <input type="file" name="fileToUpload" id="fileToUpload">
+                    <input type="submit" value="上傳作業" name="submit">
+                </form>
             </section>
 	</body>
 </html>
