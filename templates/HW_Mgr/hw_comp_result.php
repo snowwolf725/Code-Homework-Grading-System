@@ -1,5 +1,7 @@
 <html>
-<head><title>ASGS</title>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>ASGS</title>
 <style type="text/css">
 <!--
 .style3 {font-size: large}

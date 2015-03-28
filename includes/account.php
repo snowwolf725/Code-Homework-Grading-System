@@ -78,7 +78,7 @@ class UserList
 	function UserList() {
 		$db = new DBase();
 		$db->defaultDBConnect();
-		$db->Query("SET NAMES 'big5'");
+		$db->Query("SET NAMES 'UTF-8'");
 		
 		if( func_num_args() == 1 ) {
 			$result = $db->Query("select * from account " . func_get_arg(0) . " order by power desc, id");

@@ -2,7 +2,7 @@
 
 // Smarty 樣版 
 include "class/Smarty.class.php"; 
-define('__SITE_ROOT','c:/appserv/www/project');     //定義網站根目錄 
+define('__SITE_ROOT','/var/www/html');     //定義網站根目錄 
 
 $tpl = new Smarty(); 
 $tpl->template_dir   = __SITE_ROOT . "/templates/"; 
@@ -16,12 +16,12 @@ $tpl->right_delimiter = '}>';
  // DBase class
  include   "database.php"; 
  $dbhost = "localhost";
- $dbname = 'asgs';
- $dbadm  = 'user';
- $dbpwd  = '12345678';
+ $dbname = 'grading';
+ $dbadm  = 'root';
+ $dbpwd  = '1234qwer';
 
  $db = new DBase();
  $db->DBConnect( $dbhost ,$dbadm, $dbpwd, $dbname );
- $db->Query( "SET NAMES 'big5'" );
+ $db->Query( "SET NAMES 'UTF-8'" );
  
 ?>
