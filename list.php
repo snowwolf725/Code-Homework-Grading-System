@@ -5,7 +5,7 @@
   <tr height="32"> 
     <td background="images/metalchaos_06.gif" width="212">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
-      <font face="²Ó©úÅé, Verdana, Arial, Helvetica, sans-serif" size="2">
+      <font face="ç´°æ˜é«”, Verdana, Arial, Helvetica, sans-serif" size="2">
       </font>
     </td>
   </tr>
@@ -15,9 +15,9 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
       <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
       <? if( !$_SESSION['power'] ) { ?>
-      ±b¸¹<input type="text" name="account" size=10>
+      å¸³è™Ÿ<input type="text" name="account" size=10>
       <? } else { ?>
-      <a href="logout.php">µn¥X</a>
+      <a href="logout.php">ç™»å‡º</a>
       <? } ?>
       </font>
     </td>
@@ -28,7 +28,7 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
       <? if( !$_SESSION['power'] ) { ?>
-      ±K½X<input type="password" name="passwd" size=10>
+      å¯†ç¢¼<input type="password" name="passwd" size=10>
       <? } ?>
       </font>
     </td>
@@ -39,7 +39,7 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
       <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
       <? if( !$_SESSION['power'] ) { ?>
-      <input type="submit" value="µn¤J">      
+      <input type="submit" value="ç™»å…¥">      
       <? } ?>
       </font>
     </td>
@@ -51,7 +51,7 @@
     <? if( $_SESSION['power'] > 1 ) { ?>
     <a href="mgr_index.php">
       <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
-      ºŞ²z¤¶­±
+      ç®¡ç†ä»‹é¢
       </font>
     </a>
     <? } ?>
@@ -64,7 +64,7 @@
   	<? if( $_SESSION['power'] == 1 ) { ?>
     <a href="./Course_Mgr/list_course.php">
       <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
-      §Úªº½Òµ{
+      æˆ‘çš„èª²ç¨‹
       </font>
     </a>
     <? } ?>

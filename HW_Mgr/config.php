@@ -1,8 +1,8 @@
 <?
 
-// Smarty ¼Ëª© 
+// Smarty æ¨£ç‰ˆ 
 include "class/Smarty.class.php"; 
-define('__SITE_ROOT','c:/appserv/www/project');     //©w¸qºô¯¸®Ú¥Ø¿ý 
+define('__SITE_ROOT','c:/appserv/www/project');     //å®šç¾©ç¶²ç«™æ ¹ç›®éŒ„ 
 
 $tpl = new Smarty(); 
 $tpl->template_dir   = __SITE_ROOT . "/templates/"; 

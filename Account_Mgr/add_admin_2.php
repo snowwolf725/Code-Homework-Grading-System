@@ -6,7 +6,7 @@
 	$id = $_POST['id'];
 	$pw = $_POST['pw'];
 
-    // ³o¸Ì­n¼W¥[±b¸¹¬O§_¦s¦bªºÀË¬d
+    // é€™è£¡è¦å¢åŠ å¸³è™Ÿæ˜¯å¦å­˜åœ¨çš„æª¢æŸ¥
 
 //	$db = new DBase();
 //	$db->DBConnect( $dbhost, $dbadm, $dbpwd, $dbname);
@@ -14,18 +14,18 @@
 	$db->Query("insert account values('" . $id . "','" . $pw . "',3)");
 
     if( $_SESSION['power'] > 2 ) {
-		$tpl->assign("list1", "<a href=search.php>±b¸¹¬d¸ß/­×§ï</a>");
-		$tpl->assign("list2", "<a href=add_admin.php>·s¼WºŞ²z±b¸¹</a>");
-		$tpl->assign("list3", "<a href=add_teacher.php>·s¼W±Ğ®v±b¸¹</a>");
-		$tpl->assign("list4", "<a href=add_student.php>·s¼W¾Ç¥Í±b¸¹</a>");
+		$tpl->assign("list1", "<a href=search.php>å¸³è™ŸæŸ¥è©¢/ä¿®æ”¹</a>");
+		$tpl->assign("list2", "<a href=add_admin.php>æ–°å¢ç®¡ç†å¸³è™Ÿ</a>");
+		$tpl->assign("list3", "<a href=add_teacher.php>æ–°å¢æ•™å¸«å¸³è™Ÿ</a>");
+		$tpl->assign("list4", "<a href=add_student.php>æ–°å¢å­¸ç”Ÿå¸³è™Ÿ</a>");
     } else if( $_SESSION['power'] > 1 ) {
-		$tpl->assign("list1", "<a href=add_student.php>·s¼W¾Ç¥Í±b¸¹</a>");
-		$tpl->assign("list2", "<a href=modify.php>­×§ï­Ó¤H¸ê®Æ</a>");
+		$tpl->assign("list1", "<a href=add_student.php>æ–°å¢å­¸ç”Ÿå¸³è™Ÿ</a>");
+		$tpl->assign("list2", "<a href=modify.php>ä¿®æ”¹å€‹äººè³‡æ–™</a>");
     } else if( $_SESSION['power'] > 0 ) {
-		$tpl->assign("list1", "<a href=modify.php>­×§ï­Ó¤H¸ê®Æ</a>");
+		$tpl->assign("list1", "<a href=modify.php>ä¿®æ”¹å€‹äººè³‡æ–™</a>");
 	}
 
     $tpl->assign("title", "ASGS");
-    $tpl->assign("content", "·s¼WºŞ²zªÌ±b¸¹ (" . $id . ") §¹¦¨¡I");
+    $tpl->assign("content", "æ–°å¢ç®¡ç†è€…å¸³è™Ÿ (" . $id . ") å®Œæˆï¼");
     $tpl->display('Account_Mgr/add_admin.html');
 ?>

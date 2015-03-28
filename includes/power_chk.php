@@ -1,5 +1,5 @@
 <?
     session_start();
 	if($_SESSION['account'] == "")
-       die("§A¨S¦³Åv­­µn¤J¦¹­¶"); 
+       die("ä½ æ²’æœ‰æ¬Šé™ç™»å…¥æ­¤é "); 
 ?>

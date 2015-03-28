@@ -8,7 +8,7 @@
  if( $action == "upload" )
  {  
 	 if( $userfile == "" )
-	     echo("½Ğ¿ï¾ÜÀÉ®×!");
+	     echo("è«‹é¸æ“‡æª”æ¡ˆ!");
 	 else
 	 {	
 		 $path = "C:/AppServ/www/asgs/upload/".$hw_id."/";
@@ -24,7 +24,7 @@
 	
 		 if( copy( $userfile, $path."/".$userfile_name ) ) 
 		 {
-			 $message = "ÀÉ®×¤W¶Ç¦¨¥\!";          
+			 $message = "æª”æ¡ˆä¸Šå‚³æˆåŠŸ!";          
 			 $sec = time();
 			 $id  = $_SESSION['account'];
 			 
@@ -37,7 +37,7 @@
 			 print "test";
 		 }
 		 else 
-		     $message = "¤W¶Ç¥¢±Ñ!";
+		     $message = "ä¸Šå‚³å¤±æ•—!";
 		 
  
 		 unlink($userfile);

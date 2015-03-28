@@ -3,14 +3,14 @@
   {
       function defaultDBConnect() 
 	  {
-	      mysql_connect("localhost", "user", "12345678") or die ( "µLªk³sµ²" );
-          mysql_select_db("asgs") or die ( "µLªk¶Ç¯u" );
+	      mysql_connect("localhost", "user", "12345678") or die ( "ç„¡æ³•é€£çµ" );
+          mysql_select_db("asgs") or die ( "ç„¡æ³•å‚³çœŸ" );
       }
       
   	  function DBConnect( $dbhost, $dbadm, $dbpwd, $dbname )
 	  {
-	      mysql_connect( $dbhost ,$dbadm, $dbpwd ) or die ( "µLªk³sµ²" );
-          mysql_select_db( $dbname ) or die ( "µLªk¶Ç¯u" );
+	      mysql_connect( $dbhost ,$dbadm, $dbpwd ) or die ( "ç„¡æ³•é€£çµ" );
+          mysql_select_db( $dbname ) or die ( "ç„¡æ³•å‚³çœŸ" );
 	  }
 	  
 	  function Query($querystr)

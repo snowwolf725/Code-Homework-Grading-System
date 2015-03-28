@@ -12,7 +12,7 @@
 	$data = $db->Fetch_array($result);
 
 	if( $data['power'] == false ) {
-		header('Location:index.php?msg=±b¸¹¿ù»~©Î±K½X¤£¥¿½T...');
+		header('Location:index.php?msg=å¸³è™ŸéŒ¯èª¤æˆ–å¯†ç¢¼ä¸æ­£ç¢º...');
 		exit();
 	}
 

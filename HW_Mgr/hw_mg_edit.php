@@ -12,7 +12,7 @@
 		$filemg=new FileMgr($_SESSION['path']);
 		$filemg->saveFile($_GET['filename'],stripslashes($_POST['textarea']));
 		$tpl->assign("filecontext",$filemg->getFileContext($_GET['filename']));
-		$tpl->assign("filestate","�ɮפw�s~!!");
+		$tpl->assign("filestate","檔案已存~!!");
 		$tpl->assign("filename",$_GET['filename']);
 		$tpl->assign("std_id",$std_id);
 		$tpl->display("HW_Mgr/hw_mg_edit.htm");

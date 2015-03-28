@@ -22,8 +22,8 @@ class HomeworkInfo
 			    $this->info_data[$i]  = array( "account" => $st_info[member_id], "name"     => $st_info[name], 
 			                                   "hw_doc"  => $hw_info[due_doc],   "filename" => $hw_info[filename] ); 
 			else 
-			    $this->info_data[$i]  = array( "account" => $st_info[member_id], "name" => $st_info[name], "hw_doc" => "µL", 
-	                                           "filename" => "¥¼Ãº§@·~" ); 
+			    $this->info_data[$i]  = array( "account" => $st_info[member_id], "name" => $st_info[name], "hw_doc" => "ç„¡", 
+	                                           "filename" => "æœªç¹³ä½œæ¥­" ); 
 			
 			$i++;
         }

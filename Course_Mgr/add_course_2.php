@@ -8,6 +8,6 @@
 	$db->Query("insert course(course_name, course_doc) values('" . $name . "','" . $detail . "')");
 
     $tpl->assign("title", "ASGS");
-    $tpl->assign("content", "·s¼W½Òµ{ (" . $name . ") §¹¦¨¡I");
+    $tpl->assign("content", "æ–°å¢žèª²ç¨‹ (" . $name . ") å®Œæˆï¼");
     $tpl->display('Course_Mgr/add_course.html');
 ?>

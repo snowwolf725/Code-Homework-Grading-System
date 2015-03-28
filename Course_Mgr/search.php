@@ -1,8 +1,8 @@
 <?
     require "../config.php";
     $tpl->assign("title", "ASGS");
-    $tpl->assign("content", "½Òµ{¬d¸ß/­×§ï");
-    // ¤W­±¨â¦æ¤]¥i¥H¥Î³o¦æ¥N´À
-    // $tpl->assign(array("title" => "´ú¸Õ¥Îªººô­¶¼ÐÃD", "content" => "´ú¸Õ¥Îªººô­¶¤º®e"));
+    $tpl->assign("content", "èª²ç¨‹æŸ¥è©¢/ä¿®æ”¹");
+    // ä¸Šé¢å…©è¡Œä¹Ÿå¯ä»¥ç”¨é€™è¡Œä»£æ›¿
+    // $tpl->assign(array("title" => "æ¸¬è©¦ç”¨çš„ç¶²é æ¨™é¡Œ", "content" => "æ¸¬è©¦ç”¨çš„ç¶²é å…§å®¹"));
     $tpl->display('Course_Mgr/search.html');
 ?>

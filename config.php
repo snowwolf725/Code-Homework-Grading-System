@@ -1,9 +1,9 @@
 <?
-//Smarty ¼Ëª© 
+//Smarty æ¨£ç‰ˆ 
 include "class/Smarty.class.php"; 
-//©w¸qºô¯¸®Ú¥Ø¿ý 
+//å®šç¾©ç¶²ç«™æ ¹ç›®éŒ„ 
 define('__SITE_ROOT','c:/AppServ/www/ASGS'); 
-// ¥H config.php ªº¦ì¸m¬°°ò·Ç
+// ä»¥ config.php çš„ä½ç½®ç‚ºåŸºæº–
 $tpl = new Smarty(); 
 $tpl->template_dir   = __SITE_ROOT . "/templates/"; 
 $tpl->compile_dir    = __SITE_ROOT . "/templates_c/"; 

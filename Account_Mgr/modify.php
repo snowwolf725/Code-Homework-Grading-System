@@ -10,7 +10,7 @@
     $condition = $_GET['condition'];
 
     $tpl->assign("title", "ASGS");
-   	$tpl->assign("content", "±b¸¹­×§ï");
+   	$tpl->assign("content", "å¸³è™Ÿä¿®æ”¹");
 
     $db = new DBase();
     $db->defaultDBConnect();
@@ -23,18 +23,18 @@
 	$tpl->assign("power", $power);
 
     if( $_SESSION['power'] > 2 ) {
-		$tpl->assign("list1", "<a href=search.php>±b¸¹¬d¸ß/­×§ï</a>");
-		$tpl->assign("list2", "<a href=add_admin.php>·s¼WºŞ²z±b¸¹</a>");
-		$tpl->assign("list3", "<a href=add_teacher.php>·s¼W±Ğ®v±b¸¹</a>");
-		$tpl->assign("list4", "<a href=add_student.php>·s¼W¾Ç¥Í±b¸¹</a>");
+		$tpl->assign("list1", "<a href=search.php>å¸³è™ŸæŸ¥è©¢/ä¿®æ”¹</a>");
+		$tpl->assign("list2", "<a href=add_admin.php>æ–°å¢ç®¡ç†å¸³è™Ÿ</a>");
+		$tpl->assign("list3", "<a href=add_teacher.php>æ–°å¢æ•™å¸«å¸³è™Ÿ</a>");
+		$tpl->assign("list4", "<a href=add_student.php>æ–°å¢å­¸ç”Ÿå¸³è™Ÿ</a>");
     } else if( $_SESSION['power'] > 1 ) {
-		$tpl->assign("list1", "<a href=add_student.php>·s¼W¾Ç¥Í±b¸¹</a>");
-		$tpl->assign("list2", "<a href=modify.php>­×§ï­Ó¤H¸ê®Æ</a>");
+		$tpl->assign("list1", "<a href=add_student.php>æ–°å¢å­¸ç”Ÿå¸³è™Ÿ</a>");
+		$tpl->assign("list2", "<a href=modify.php>ä¿®æ”¹å€‹äººè³‡æ–™</a>");
     } else if( $_SESSION['power'] > 0 ) {
-		$tpl->assign("list1", "<a href=modify.php>­×§ï­Ó¤H¸ê®Æ</a>");
+		$tpl->assign("list1", "<a href=modify.php>ä¿®æ”¹å€‹äººè³‡æ–™</a>");
 	}
 
-	if( $p == 1 ) {					// ¾Ç¥Í
+	if( $p == 1 ) {					// å­¸ç”Ÿ
 		$db = new DBase();
 	    $db->defaultDBConnect();
     	$db->Query("SET NAMES 'big5'");
@@ -42,7 +42,7 @@
 		$data = $db->Fetch_array($result);
 		$tpl->assign("name", $data['name']);
 	    $tpl->display('Account_Mgr/modify_student.html');
-	} else if( $p == 2 ) {			// ±Ğ®v
+	} else if( $p == 2 ) {			// æ•™å¸«
 		$db = new DBase();
 	    $db->defaultDBConnect();
     	$db->Query("SET NAMES 'big5'");
@@ -56,7 +56,7 @@
 		$tpl->assign("website", $data['website']);
 		$tpl->assign("email", $data['email']);
 	    $tpl->display('Account_Mgr/modify_teacher.html');
-	} else if( $p == 3 ) {			// ºŞ²zªÌ
+	} else if( $p == 3 ) {			// ç®¡ç†è€…
 	    $tpl->display('Account_Mgr/modify_admin.html');
 	}
 ?>

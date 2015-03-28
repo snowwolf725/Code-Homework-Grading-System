@@ -21,17 +21,17 @@
 
     <!-- include main file -->
     <td valign="top" width="588">
-      <p align="center" class="style7">955801¤Î955802µ{¦¡½X¤ñ¹ïµ²ªG</p>
+      <p align="center" class="style7">955801åŠ955802ç¨‹å¼ç¢¼æ¯”å°çµæžœ</p>
       <table width="738" height="319" border="1">
         <tr>
-          <td colspan="2">ÀÉ®×¦WºÙ</td>
+          <td colspan="2">æª”æ¡ˆåç¨±</td>
           <td colspan="2">&nbsp;</td>
         </tr>
         <tr>
-          <td>¨Ó·½(955801)</td>
-          <td>¥Øªº(955802)</td>
-          <td>¬Û¦Pªº¦æ¼Æ</td>
-          <td>¬Û¦ü«×</td>
+          <td>ä¾†æº(955801)</td>
+          <td>ç›®çš„(955802)</td>
+          <td>ç›¸åŒçš„è¡Œæ•¸</td>
+          <td>ç›¸ä¼¼åº¦</td>
         </tr>
         <tr>
           <td>frm1.cpp</td>
@@ -52,14 +52,14 @@
           <td>90%</td>
         </tr>
         <tr>
-          <td>¥­§¡</td>
+          <td>å¹³å‡</td>
           <td>&nbsp;</td>
           <td>38</td>
           <td>87%</td>
         </tr>
       </table>      
-      <p>§P©wµ²ªG¡G¦¹¨â¥÷§@·~¬°§ÛÅ§</p>      
-      <p> <a href="view.php" class="style7">ªð¦^</a> </p>
+      <p>åˆ¤å®šçµæžœï¼šæ­¤å…©ä»½ä½œæ¥­ç‚ºæŠ„è¥²</p>      
+      <p> <a href="view.php" class="style7">è¿”å›ž</a> </p>
       <p><br>
       </p></td>
   </tr>
