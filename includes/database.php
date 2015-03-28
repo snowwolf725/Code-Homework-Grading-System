@@ -28,13 +28,13 @@
   }
   
   $dbhost = "localhost";
-  $dbname = 'asgs';
-  $dbadm  = 'user';
-  $dbpwd  = '12345678';
+  $dbname = 'grading';
+  $dbadm  = 'root';
+  $dbpwd  = '1234qwer';
 
   $db = new DBase();
   $db->DBConnect( $dbhost ,$dbadm, $dbpwd, $dbname );
-  $db->Query( "SET NAMES 'big5'" );
+  $db->Query( "SET NAMES 'UTF-8'" );
 
     
 ?>

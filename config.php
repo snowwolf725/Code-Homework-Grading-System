@@ -2,7 +2,7 @@
 //Smarty 樣版 
 include "class/Smarty.class.php"; 
 //定義網站根目錄 
-define('__SITE_ROOT','c:/AppServ/www/ASGS'); 
+define('__SITE_ROOT','/var/www/html'); 
 // 以 config.php 的位置為基準
 $tpl = new Smarty(); 
 $tpl->template_dir   = __SITE_ROOT . "/templates/"; 
