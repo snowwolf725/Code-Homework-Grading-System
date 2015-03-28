@@ -1,5 +1,5 @@
 <?
-	session_start();
-    require "../config.php";
+    session_start();
+    require "config.php";
     $tpl->display('index.html');
 ?>
