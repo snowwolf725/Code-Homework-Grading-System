@@ -7,7 +7,7 @@
  
  $hw_id = 0001;
  
- if(isset($_POST["submit"])) {
+ if(isset($_POST["submit"]))
  {  
 	 if( $userfile == "" )
 	     echo("請選擇檔案!");
