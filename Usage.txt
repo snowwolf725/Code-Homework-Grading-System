@@ -1,42 +1,42 @@
-¢x  config.php		//Smarty ³]©wÀÉ
-¢x  ReadMe.txt
-¢x
-¢u¢wAccount_Mgr		//±b¸¹ºŞ²z¬ÛÃöªºPHPÀÉ
-¢u¢wcache		//Smarty ¸ê®Æ§¨
-¢u¢wclass		//Smarty ¸ê®Æ§¨
-¢u¢wconfigs		//Smarty ¸ê®Æ§¨
-¢u¢wCourse_Mgr		//½Òµ{ºŞ²z¬ÛÃöªºPHPÀÉ
-¢u¢wHW_Mgr		//§@·~ºŞ²z¬ÛÃöªºPHPÀÉ
-¢u¢wincludes		//©ñ¸m¦Û¤v¼gªº±`¥Îfunction
-¢u¢wimages		//©ñ¸mindex¨Ï¥Î¨ìªº¹ÏÀÉ
-¢u¢wmodules		//©ñ¸m¦@¥Îªºclass
-¢u¢wProject_doc		//©ñ¸m±M®×¬ÛÃö¤å¥ó
-¢x  asgs.sql		//SQL
-¢u¢wStudent		//¾Ç¥Í¬ÛÃöªºPHPÀÉ
-¢u¢wtemplates		//©ñ¸m¼ËªOÀÉ®×(§YPHP©Ò¹ïÀ³ªºHTMLÀÉ®×)
-¢x  ¢x
-¢x  ¢u¢wAccount_Mgr	//±b¸¹ºŞ²z¬ÛÃöªºtemplateÀÉ
-¢x  ¢u¢wCourse_Mgr	//½Òµ{ºŞ²z¬ÛÃöªºtemplateÀÉ
-¢x  ¢u¢wHW_Mgr		//§@·~ºŞ²z¬ÛÃöªºtemplateÀÉ
-¢x  ¢u¢wnull		//¹w³]ªºtemplateÀÉ®×
-¢x  ¢u¢wimages		//©ñ¸m¨Ï¥Î¨ìªº¹ÏÀÉ
-¢x  ¢|¢wStudent		//¾Ç¥Í¬ÛÃöªºtemplateÀÉ
-¢|¢wtemplates_c		//Smarty ¸ê®Æ§¨
+â”‚  config.php		//Smarty è¨­å®šæª”
+â”‚  ReadMe.txt
+â”‚
+â”œâ”€Account_Mgr		//å¸³è™Ÿç®¡ç†ç›¸é—œçš„PHPæª”
+â”œâ”€cache		//Smarty è³‡æ–™å¤¾
+â”œâ”€class		//Smarty è³‡æ–™å¤¾
+â”œâ”€configs		//Smarty è³‡æ–™å¤¾
+â”œâ”€Course_Mgr		//èª²ç¨‹ç®¡ç†ç›¸é—œçš„PHPæª”
+â”œâ”€HW_Mgr		//ä½œæ¥­ç®¡ç†ç›¸é—œçš„PHPæª”
+â”œâ”€includes		//æ”¾ç½®è‡ªå·±å¯«çš„å¸¸ç”¨function
+â”œâ”€images		//æ”¾ç½®indexä½¿ç”¨åˆ°çš„åœ–æª”
+â”œâ”€modules		//æ”¾ç½®å…±ç”¨çš„class
+â”œâ”€Project_doc		//æ”¾ç½®å°ˆæ¡ˆç›¸é—œæ–‡ä»¶
+â”‚  asgs.sql		//SQL
+â”œâ”€Student		//å­¸ç”Ÿç›¸é—œçš„PHPæª”
+â”œâ”€templates		//æ”¾ç½®æ¨£æ¿æª”æ¡ˆ(å³PHPæ‰€å°æ‡‰çš„HTMLæª”æ¡ˆ)
+â”‚  â”‚
+â”‚  â”œâ”€Account_Mgr	//å¸³è™Ÿç®¡ç†ç›¸é—œçš„templateæª”
+â”‚  â”œâ”€Course_Mgr	//èª²ç¨‹ç®¡ç†ç›¸é—œçš„templateæª”
+â”‚  â”œâ”€HW_Mgr		//ä½œæ¥­ç®¡ç†ç›¸é—œçš„templateæª”
+â”‚  â”œâ”€null		//é è¨­çš„templateæª”æ¡ˆ
+â”‚  â”œâ”€images		//æ”¾ç½®ä½¿ç”¨åˆ°çš„åœ–æª”
+â”‚  â””â”€Student		//å­¸ç”Ÿç›¸é—œçš„templateæª”
+â””â”€templates_c		//Smarty è³‡æ–™å¤¾
 
 
-±M®×ÀÉ®×¤@²v©ñ¦bC:\AppServ\www\ASGS¤U
+å°ˆæ¡ˆæª”æ¡ˆä¸€ç‡æ”¾åœ¨C:\AppServ\www\ASGSä¸‹
 
-°²³]·Q¦bHW_Mgr«Ø¥ßtest.php«h
-¦b/HW_Mgr«Ø¥ßtest.php¥´¤J¤º®e
+å‡è¨­æƒ³åœ¨HW_Mgrå»ºç«‹test.phpå‰‡
+åœ¨/HW_Mgrå»ºç«‹test.phpæ‰“å…¥å…§å®¹
 <?php
-    require "../config.php";					//³]©wÀÉ¦b¤W­±¤@¼h
-    $tpl->assign("title", "´ú¸Õ¥Îªººô­¶¼ĞÃD");
-    $tpl->assign("content", "´ú¸Õ¥Îªººô­¶¤º®e");
-    // ¤W­±¨â¦æ¤]¥i¥H¥Î³o¦æ¥N´À
-    // $tpl->assign(array("title" => "´ú¸Õ¥Îªººô­¶¼ĞÃD", "content" => "´ú¸Õ¥Îªººô­¶¤º®e"));
-    $tpl->display('HW_Mgr/test.htm');			//ª`·N¬O¬Û¹ï©ó/templates/ªº¦ì¸m
+    require "../config.php";					//è¨­å®šæª”åœ¨ä¸Šé¢ä¸€å±¤
+    $tpl->assign("title", "æ¸¬è©¦ç”¨çš„ç¶²é æ¨™é¡Œ");
+    $tpl->assign("content", "æ¸¬è©¦ç”¨çš„ç¶²é å…§å®¹");
+    // ä¸Šé¢å…©è¡Œä¹Ÿå¯ä»¥ç”¨é€™è¡Œä»£æ›¿
+    // $tpl->assign(array("title" => "æ¸¬è©¦ç”¨çš„ç¶²é æ¨™é¡Œ", "content" => "æ¸¬è©¦ç”¨çš„ç¶²é å…§å®¹"));
+    $tpl->display('HW_Mgr/test.htm');			//æ³¨æ„æ˜¯ç›¸å°æ–¼/templates/çš„ä½ç½®
 ?>
-¦b/templates/HW_Mgr/test.htm¤º¥´¤J
+åœ¨/templates/HW_Mgr/test.htmå…§æ‰“å…¥
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=big5">

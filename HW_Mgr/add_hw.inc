@@ -33,7 +33,7 @@
 	                "hw_doc"   => $row[hw_doc],
 			"deadline" => $date[year]."/".$date[mon]."/".$date[mday] );
 	 $tpl->assign( "data" , $data );
-	 $tpl->assign( "btn_text" , "½Òµ{­×§ï" );
+	 $tpl->assign( "btn_text" , "èª²ç¨‹ä¿®æ”¹" );
 	 $tpl->assign( "action" , "update" );
      }
      else if( $UI == "input" )	
@@ -42,7 +42,7 @@
 	                "hw_doc"   => "",
 	   	        "deadline" => "");
 	 $tpl->assign( "data" , $data );
-	 $tpl->assign( "btn_text" , "½Òµ{·s¼W" );
+	 $tpl->assign( "btn_text" , "èª²ç¨‹æ–°å¢ž" );
 	 $tpl->assign( "action" , "insert" );
      }   
 	 

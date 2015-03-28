@@ -4,7 +4,7 @@ if( $run == 0 )
 {
 ?>
 <SCRIPT LANGUAGE="javascript">   
-      var chk = window.confirm('½T©w§R°£?');  
+      var chk = window.confirm('ç¢ºå®šåˆªé™¤?');  
       var run = 1;
 	  location.href = "del_hw.php?chk=" + chk + "&run=" + run;    
 </script>
