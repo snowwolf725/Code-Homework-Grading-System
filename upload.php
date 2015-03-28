@@ -24,7 +24,7 @@
 			 $path .= $_SESSION['account']; 
 			 //print $path;
 	
-		 if( copy( $userfile, $path."/".$userfile_name ) ) 
+		 if( copy( $userfile_name, $path."/".$userfile_name ) ) 
 		 {
 			 shell_exec('java -jar GradingDamon.jar 01 01 123 ItemInfoTest &');
 			 $message = "檔案上傳成功!";
