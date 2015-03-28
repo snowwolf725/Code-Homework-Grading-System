@@ -22,5 +22,5 @@
 		$_SESSION['power'] = $data['power'];
 	}
 
-	header('Location:index.php?msg=login ok...');
+	header('Location:functions.php');
 ?>
